@@ -1,8 +1,8 @@
-##Agentic AI Travel Planner
+**###Agentic AI Travel Planner**
 
 **Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
 
-**##📌 Project Overview**
+**###📌 Project Overview**
 
 This project implements an Agentic AI-based travel planning system that autonomously gathers, synthesizes, and analyzes real-time data to generate personalized travel recommendations.
 
@@ -17,7 +17,7 @@ Using LangChain’s agent framework, the system orchestrates multiple external A
   
 The solution demonstrates how AI agents can coordinate tool-based workflows to produce structured, real-world decision support outputs.
 
-**##🎯 Business Problem**
+**###🎯 Business Problem**
 
 **Travelers planning multi-city trips often rely on fragmented sources for:
 
@@ -36,7 +36,7 @@ Collects information from multiple data providers
 
 - Reduces manual research effort
 
-**##🧠 Agent Architecture**
+**###🧠 Agent Architecture**
 
 The system follows a tool-driven agent architecture:
 
