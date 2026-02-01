@@ -1,50 +1,42 @@
-Agentic AI Travel Planner
+##Agentic AI Travel Planner
 
-Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
+**Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
 
-📌 Project Overview
+##📌 Project Overview
 
 This project implements an Agentic AI-based travel planning system that autonomously gathers, synthesizes, and analyzes real-time data to generate personalized travel recommendations.
 
 Using LangChain’s agent framework, the system orchestrates multiple external APIs to provide:
 
-Location geocoding
-
-Weather forecasting
-
-Air quality monitoring (AQI)
-
-Tourist attraction discovery
-
-Clothing recommendations
-
-Umbrella and face mask advisories
-
+ 📍 **Location geocoding**
+- 🌦 **Weather forecasting**
+- 🌫 **Air quality monitoring (AQI)**
+- 🗺 **Tourist attraction discovery**
+- 👕 **Clothing recommendations**
+- ☂ **Umbrella and face mask advisories**
+  
 The solution demonstrates how AI agents can coordinate tool-based workflows to produce structured, real-world decision support outputs.
 
-🎯 Business Problem
+##🎯 Business Problem
 
-Travelers planning multi-city trips often rely on fragmented sources for:
+**Travelers planning multi-city trips often rely on fragmented sources for:
 
-Weather conditions
-
-Environmental air quality
-
-Attractions
-
-Packing decisions
+- Weather conditions  
+- Environmental air quality  
+- Attractions and points of interest  
+- Packing and preparation decisions 
 
 This project addresses that fragmentation by building an autonomous AI planning assistant that:
 
 Collects information from multiple data providers
 
-Applies domain logic
+- Applies domain logic
 
-Produces a consolidated travel plan
+- Produces a consolidated travel plan
 
-Reduces manual research effort
+- Reduces manual research effort
 
-🧠 Agent Architecture
+##🧠 Agent Architecture
 
 The system follows a tool-driven agent architecture:
 
@@ -73,27 +65,27 @@ Structured Travel Plan Output
 | `streamlit_app.py` | Web UI interface (optional)                     |
 | `requirements.txt` | Python dependencies                             |
 
-🛠 Technology Stack
+##🛠 Technology Stack
 
-Python 3.10+
+**Python 3.10+
 
-LangChain (Agent Framework)
+**LangChain (Agent Framework)
 
-OpenAI GPT-4o-mini
+**OpenAI GPT-4o-mini
 
-Google Maps API
+**Google Maps API
 
-Google Air Quality API
+**Google Air Quality API
 
-Google Places API
+**Google Places API
 
-OpenWeatherMap API (fallback)
+**OpenWeatherMap API (fallback)
 
-Streamlit (UI Layer)
+**Streamlit (UI Layer)
 
-Requests, dotenv
+**Requests, dotenv
 
-⚙ Features
+##⚙ Features
 
 ✔ Autonomous tool selection and execution
 ✔ Real-time weather forecasting
@@ -104,7 +96,7 @@ Requests, dotenv
 ✔ API fallback logic
 ✔ Error-handling resilience
 
-🚀 How To Run Locally
+##🚀 How To Run Locally
 1️⃣ Clone Repository
 git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
 cd AgenticAI_Proj1
@@ -168,7 +160,7 @@ Umbrella recommendation
 
 Mask advisory
 
-🔐 Security & Best Practices
+##🔐 Security & Best Practices
 
 ✔ API keys stored using environment variables
 ✔ .env excluded from repository
@@ -176,23 +168,23 @@ Mask advisory
 ✔ Tool fallback logic
 ✔ Error handling and graceful degradation
 
-📈 Learning Outcomes
+##📈 Learning Outcomes
 
-This project demonstrates:
+- This project demonstrates:
 
-Agent-based AI orchestration
+- Agent-based AI orchestration
 
-Tool-driven reasoning pipelines
+- Tool-driven reasoning pipelines
 
-Real-world API integration
+- Real-world API integration
 
-Prompt engineering for tool enforcement
+- Prompt engineering for tool enforcement
 
-Modular software architecture
+- Modular software architecture
 
-Production-style environment management
+- Production-style environment management
 
-📚 Future Enhancements
+##📚 Future Enhancements
 
 Deployment on Streamlit Cloud
 
@@ -204,9 +196,9 @@ Multi-language output support
 
 Interactive map visualization
 
-Recommendation ranking
+##Recommendation ranking
 
-👤 Author
+##👤 Author
 
 Pamela Ballesteros
 Master of Business Analytics Candidate
@@ -214,49 +206,14 @@ Saint Mary’s University — Sobey School of Business
 
 Specializing in:
 
-Applied AI Systems
+**Applied AI Systems
 
-Business Analytics
+**Business Analytics
 
-Risk & Compliance Analytics
+**Risk & Compliance Analytics
 
-Data-Driven Decision Support
-
-⭐ If You Like This Project
+**Data-Driven Decision Support
 
 Give the repo a ⭐ and feel free to fork or contribute!
 
-🎯 OPTIONAL: Recruiter Optimization (Recommended)
 
-After pasting this README, I strongly recommend:
-
-1️⃣ Add Screenshots
-
-Streamlit UI
-
-Terminal output
-
-2️⃣ Pin Repo On GitHub Profile
-3️⃣ Add Topics
-
-Example:
-
-agentic-ai
-langchain
-streamlit
-business-analytics
-travel-ai
-python
-openai
-api-integration
-
-
-If you'd like, I can also generate:
-
-✅ Streamlit Cloud deployment instructions
-✅ Architecture diagram
-✅ Resume-ready project bullet points
-✅ GitHub description + tags
-✅ Portfolio project summary
-
-Just tell me 👍
