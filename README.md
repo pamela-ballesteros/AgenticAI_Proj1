@@ -19,7 +19,7 @@ The solution demonstrates how AI agents can coordinate tool-based workflows to p
 
 ## 🎯 Business Problem
 
-**Travelers planning multi-city trips often rely on fragmented sources for:
+**Travelers planning multi-city trips often rely on fragmented sources for:**
 
 - Weather conditions  
 - Environmental air quality  
@@ -99,18 +99,20 @@ Structured Travel Plan Output
 ## 🚀 How To Run Locally
 
 ### 1️⃣ Clone Repository
+
 ```git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
 cd AgenticAI_Proj1```
 
-## 2️⃣ Create Virtual Environment
-
-```python -m venv .venv
+### 2️⃣ Create Virtual Environment
+```
+python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 ```
 
 ### 3️⃣ Install Dependencies
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 ### 4️⃣ Configure Environment Variables
