@@ -98,12 +98,13 @@ Structured Travel Plan Output
 
 ## 🚀 How To Run Locally
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone Repository 
 
 ```git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
 cd AgenticAI_Proj1```
 
-### 2️⃣ Create Virtual Environment
+### 2. Create a virtual environment
+
 ```
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
@@ -111,6 +112,7 @@ source .venv/bin/activate   # Mac/Linux
 ```
 
 ### 3️⃣ Install Dependencies
+
 ```
 pip install -r requirements.txt
 ```
