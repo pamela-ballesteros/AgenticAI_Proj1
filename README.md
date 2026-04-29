@@ -1,8 +1,8 @@
-###Agentic AI Travel Planner
+# Agentic AI Travel Planner
 
 **Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
 
-**###📌 Project Overview**
+##📌 Project Overview
 
 This project implements an Agentic AI-based travel planning system that autonomously gathers, synthesizes, and analyzes real-time data to generate personalized travel recommendations.
 
@@ -17,7 +17,7 @@ Using LangChain’s agent framework, the system orchestrates multiple external A
   
 The solution demonstrates how AI agents can coordinate tool-based workflows to produce structured, real-world decision support outputs.
 
-**###🎯 Business Problem**
+##🎯 Business Problem
 
 **Travelers planning multi-city trips often rely on fragmented sources for:
 
@@ -36,7 +36,7 @@ Collects information from multiple data providers
 
 - Reduces manual research effort
 
-**###🧠 Agent Architecture**
+##🧠 Agent Architecture
 
 The system follows a tool-driven agent architecture:
 
@@ -65,7 +65,7 @@ Structured Travel Plan Output
 | `streamlit_app.py` | Web UI interface (optional)                     |
 | `requirements.txt` | Python dependencies                             |
 
-**##🛠 Technology Stack**
+##🛠 Technology Stack
 
 **Python 3.10+
 
@@ -85,7 +85,7 @@ Structured Travel Plan Output
 
 **Requests, dotenv
 
-**##⚙ Features**
+##⚙ Features
 
 ✔ Autonomous tool selection and execution
 ✔ Real-time weather forecasting
@@ -96,20 +96,23 @@ Structured Travel Plan Output
 ✔ API fallback logic
 ✔ Error-handling resilience
 
-**##🚀 How To Run Locally**
-1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
-cd AgenticAI_Proj1
+##🚀 How To Run Locally
 
-**2️⃣ Create Virtual Environment**
-python -m venv .venv
+###1️⃣ Clone Repository
+```git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
+cd AgenticAI_Proj1```
+
+###2️⃣ Create Virtual Environment
+```python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
+```
 
-3️⃣ Install Dependencies
-pip install -r requirements.txt
+### 3️⃣ Install Dependencies
+```pip install -r requirements.txt
+```
 
-4️⃣ Configure Environment Variables
+### 4️⃣ Configure Environment Variables
 
 Create a .env file:
 
@@ -120,47 +123,48 @@ OPENWEATHER_API_KEY=your_openweather_key
 
 ⚠️ .env is ignored from GitHub for security.
 
-5️⃣ Run Agent From Terminal
+### 5️⃣ Run Agent From Terminal
 
 Single or multi-city input:
-
+```
 python main.py Paris Tokyo Toronto
-
+```
 
 Or interactive mode:
-
+```
 python main.py
+```
 
-**🌐 Streamlit Web Interface (Optional)**
+##🌐 Streamlit Web Interface (Optional)
 
 Launch web UI:
-
+```
 streamlit run streamlit_app.py
-
+```
 
 Then open:
 
 **http://localhost:8501**
 
-📊 Example Output
+## 📊 Example Output
 
 For each city the agent returns:
 
-Coordinates & formatted address
+## Coordinates & formatted address
 
-3-day weather forecast
+- 3-day weather forecast
 
-AQI value and health category
+- AQI value and health category
 
-Top nearby attractions
+- Top nearby attractions
 
-Clothing advice
+- Clothing advice
 
-Umbrella recommendation
+- Umbrella recommendation
 
-Mask advisory
+- Mask advisory
 
-**##🔐 Security & Best Practices**
+## 🔐 Security & Best Practices
 
 ✔ API keys stored using environment variables
 ✔ .env excluded from repository
@@ -168,7 +172,7 @@ Mask advisory
 ✔ Tool fallback logic
 ✔ Error handling and graceful degradation
 
-**##📈 Learning Outcomes**
+## 📈 Learning Outcomes
 
 - This project demonstrates:
 
@@ -184,7 +188,7 @@ Mask advisory
 
 - Production-style environment management
 
-**##📚 Future Enhancements**
+## 📚 Future Enhancements
 
 Deployment on Streamlit Cloud
 
@@ -198,7 +202,7 @@ Interactive map visualization
 
 ##Recommendation ranking
 
-**##👤 Author**
+## 👤 Author
 
 Pamela Ballesteros
 Master of Business Analytics Candidate
