@@ -1,4 +1,4 @@
-**###Agentic AI Travel Planner**
+###Agentic AI Travel Planner
 
 **Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
 
