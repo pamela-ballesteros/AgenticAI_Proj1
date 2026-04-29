@@ -1,8 +1,8 @@
 # Agentic AI Travel Planner
 
-**Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs
+**Intelligent Multi-City Travel Planning Using LangChain Agents + Real-Time APIs**
 
-##📌 Project Overview
+## 📌 Project Overview ## 
 
 This project implements an Agentic AI-based travel planning system that autonomously gathers, synthesizes, and analyzes real-time data to generate personalized travel recommendations.
 
@@ -17,7 +17,7 @@ Using LangChain’s agent framework, the system orchestrates multiple external A
   
 The solution demonstrates how AI agents can coordinate tool-based workflows to produce structured, real-world decision support outputs.
 
-##🎯 Business Problem
+## 🎯 Business Problem
 
 **Travelers planning multi-city trips often rely on fragmented sources for:
 
@@ -36,7 +36,7 @@ Collects information from multiple data providers
 
 - Reduces manual research effort
 
-##🧠 Agent Architecture
+## 🧠 Agent Architecture
 
 The system follows a tool-driven agent architecture:
 
@@ -65,7 +65,7 @@ Structured Travel Plan Output
 | `streamlit_app.py` | Web UI interface (optional)                     |
 | `requirements.txt` | Python dependencies                             |
 
-##🛠 Technology Stack
+## 🛠 Technology Stack
 
 **Python 3.10+
 
@@ -85,7 +85,7 @@ Structured Travel Plan Output
 
 **Requests, dotenv
 
-##⚙ Features
+## ⚙ Features
 
 ✔ Autonomous tool selection and execution
 ✔ Real-time weather forecasting
@@ -96,13 +96,14 @@ Structured Travel Plan Output
 ✔ API fallback logic
 ✔ Error-handling resilience
 
-##🚀 How To Run Locally
+## 🚀 How To Run Locally
 
-###1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 ```git clone https://github.com/YOUR_USERNAME/AgenticAI_Proj1.git
 cd AgenticAI_Proj1```
 
-###2️⃣ Create Virtual Environment
+## 2️⃣ Create Virtual Environment
+
 ```python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
@@ -135,7 +136,7 @@ Or interactive mode:
 python main.py
 ```
 
-##🌐 Streamlit Web Interface (Optional)
+## 🌐 Streamlit Web Interface (Optional)
 
 Launch web UI:
 ```
